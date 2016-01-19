@@ -8,18 +8,6 @@ node_modules
 _site/
 .sass-cache/
 
-# OS X
-.DS_Store
-.AppleDouble
-.LSOverride
-
-
-# Vagrant
-.vagrant
-
-# Gemfile
-Gemfile.lock
-
 # Drafts
 _drafts
 # Added by script - add other file before this.
