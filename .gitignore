@@ -22,3 +22,7 @@ Gemfile.lock
 
 # Drafts
 _drafts
+# Added by script - add other file before this.
+bash_func.lock
+run-cmd.log
+run-update.log
