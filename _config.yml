@@ -5,8 +5,7 @@ permalink: / ## disables post output
 timezone: null
 lsi: false
 markdown: kramdown
-highlighter: pygments
-
+highlighter: rouge
 
 ### content configuration ###
 root_url: "http://www.thekkedam.org/"
@@ -16,7 +15,7 @@ description: "Home page of Pindalikara Thekkedam"
 source_link: "https://github.com/thekkedam/thekkedam.github.io"
 favicon:     "img/favicon.ico"
 touch_icon:  "img/apple-touch-icon.png"
-google_analytics_key: UA-70783896-1 ## put YOUR key here to enable tracking! (blank to disable)
+google_analytics_key: UA-70783896-1 
 
 
 ### template colors, used site-wide via css ###
