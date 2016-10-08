@@ -4,7 +4,7 @@ exclude: [CNAME, README.md, .gitignore, build, update]
 permalink: / ## disables post output
 timezone: null
 lsi: false
-#markdown: kramdown
+markdown: kramdown
 highlighter: rouge
 
 ### content configuration ###
