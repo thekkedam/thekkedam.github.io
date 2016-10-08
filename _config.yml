@@ -1,6 +1,6 @@
 ---
 ### site serving configuration ###
-exclude: [CNAME, README.md, .gitignore]
+exclude: [CNAME, README.md, .gitignore, build, update]
 permalink: / ## disables post output
 timezone: null
 lsi: false
