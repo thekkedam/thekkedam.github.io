@@ -30,6 +30,6 @@ colors:
 
 #kramdown:
 #  auto_ids:  false
-atom_feed:
-  path                   : feed.xml
 
+gems:
+  - jekyll-sitemap
