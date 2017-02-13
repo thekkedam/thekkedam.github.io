@@ -3,9 +3,9 @@
 exclude: [CNAME, README.md, .gitignore, build, update]
 permalink: / ## disables post output
 timezone: null
-lsi: false
-markdown: kramdown
-highlighter: rouge
+#lsi: false
+#markdown: kramdown
+#highlighter: rouge
 
 ### content configuration ###
 root_url: "http://www.thekkedam.org/"
@@ -28,6 +28,6 @@ colors:
   orange:    '#fab125'
   turquoise: '#0fbfcf'
 
-kramdown:
-  auto_ids:  false
+#kramdown:
+#  auto_ids:  false
 
