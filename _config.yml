@@ -1,11 +1,6 @@
----
-### site serving configuration ###
-exclude: [CNAME, README.md, .gitignore, build, update]
-permalink: / ## disables post output
-timezone: null
-#lsi: false
-markdown: kramdown
+# Jekyll build settings
 highlighter: rouge
+# timezone: 'Europe/Berlin'
 
 ### content configuration ###
 root_url: "http://www.thekkedam.org/"
@@ -15,7 +10,7 @@ description: "Home page of Pindalikara Thekkedam"
 source_link: "https://github.com/thekkedam/thekkedam.github.io"
 favicon:     "img/favicon.ico"
 touch_icon:  "img/apple-touch-icon.png"
-google_analytics_key: UA-70783896-1 
+google_analytics_key: UA-70783896-1
 
 
 ### template colors, used site-wide via css ###
@@ -28,8 +23,25 @@ colors:
   orange:    '#fab125'
   turquoise: '#0fbfcf'
 
-#kramdown:
-#  auto_ids:  false
+# Exclude personal
+exclude:
+  - _drafts
+  - build
+  - update
+  - _toolScripts
+  - skip.html
+  - deploy
+  - vendor
 
+# include
+include:
+  - ".htaccess"
+
+# Plugins (GitHub Pages only support a few)
 gems:
+  - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-mentions
+  - jekyll-gist
+  - jekyll-paginate
+  - rouge
